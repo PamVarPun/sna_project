@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+
+    </script>
+    <title>Presentation of จักรวาลเกศสุรางค์</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;600;800&display=swap');
+
+        body {
+            font-family: 'Noto Sans Thai', sans-serif;
+            padding-bottom: 80px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p {
+            font-size: small;
+        }
+
+        .row {
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        div {
+            column-gap: 10px;
+        }
+
+        .column {
+            flex: 50%;
+            float: right;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            width: 200px;
+            text-align: center;
+        }
+
+        img {
+            margin: 0 auto;
+        }
+
+        #relative-color-table {
+            width: 100px;
+        }
+
+        iframe,
+        #myimage {
+            border: 3px solid gray;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body class="bg-stone-100 ">
+    <h1 class="my-2 font-bold text-2xl bg-white">Universe of เกดสุรางค์</h1>
+    <div class="row">
+        <img id="myimage" style="margin: auto;" width="500" height="500" src="graph_image.jpg"
+            alt="Universe of เกศสุรางค์">
+    </div>
+    <br>
+    <h2 class="font-bold text-xl bg-white">สายสัมพันธ์ ณ ภพไหน ๆ </h2>
+    <div id="content" class="row">
+        <div class="column">
+            <h3 class="my-2 font-bold">ด้วยชนชั้นอันต่างศักดิ์ในสมัยกรุงศรีอยุธยา</h3>
+            <iframe
+                src="https://ouestware.gitlab.io/retina/beta/#/embed/?url=https%3A%2F%2Fgist.githubusercontent.com%2FVarapornDPU%2F793e6a17074e6e9e173f62e4f8122afc%2Fraw%2F17ee81542957bd87861a4f1a35060e4445e1683c%2Fnetwork-a7b3b33f-136.gexf"
+                frameBorder="0" title="Retina" allowFullScreen></iframe>
+        </div>
+        <div class="column" style="margin: auto;">
+            <div id="dialogue">
+                <p class="indent-3">
+                    ในสมัยอยุธยามีความเกี่ยวข้องกับเรื่องของชนชั้นวรรณอย่างชัดเจน
+                    รายงานฉบับนี้จึงได้ใช้สีเพื่อการแบ่งกลุ่มชนชั้น และขนาดแต่ละ Node แสดง คำณวนตามจำนวน degree ที่แต่ละ
+                    Node มี ซึ่ง Node ที่มี degree มากที่สุดในความสัมพันธ์นี้คือ <strong>"เกศสุรางค์"</strong> โดยมี
+                    degree อยู่ที่<strong>
+                        22 degrees</strong> ด้วยกัน อีกทั้งแต่ละ edge มีค่า weigth ที่แตกต่างกันตามน้ำหนักความสัมพันธ์
+                    โดยมีรายละเอียดดังนี้</p>
+                <br>
+                <div class="row">
+                    <div class="column">
+                        <table id="status-color" class="bg-white table-auto border-collapse ">
+                            <tr>
+                                <th>ชนชั้นวรรณะ</th>
+                                <th>เฉดสี</th>
+                            </tr>
+                            <tr>
+                                <td>ราชวงศ์</td>
+                                <td> <img src="/status color/royal.png" width="60px"> </td>
+                            </tr>
+                            <tr>
+                                <td>ข้าราชบริพาร</td>
+                                <td><img src="/status color/courtier.png" width="60px"> </td>
+                            </tr>
+                            <tr>
+                                <td>เจ้าขุนมูลนาย</td>
+                                <td><img src="/status color/master.png" width="60px"></td>
+                            </tr>
+                            <tr>
+                                <td>พลเรือน</td>
+                                <td><img src="/status color/civil.png" width="60px"> </td>
+                            </tr>
+                            <tr>
+                                <td>ข้าทาส บ่าวไพร่</td>
+                                <td><img src="/status color/slave.png" width="60px"> </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="column">
+                        <table id="status-color" class="bg-white table-auto border-collapse ">
+                            <tr>
+                                <th>ค่า Weight</th>
+                                <th>ความหมาย</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>รู้จักแบบผิวเผิน</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>เพื่อนร่วมงาน / มิตรสหาย</td>
+                            </tr>
+                            <tr>
+                                <td> 3 </td>
+                                <td>ครอบครัว</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>คู่รัก</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>ศัตรูคู่อาฆาต</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>เจ้านายลูกน้อง</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>การกลับชาติมาเกิด</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="column">
+            <h3 class="font-bold mb-1">ความสัมพันธ์ของแต่ละตัวละคร</h3>
+            <iframe
+                src="https://ouestware.gitlab.io/retina/beta/#/embed/?url=https%3A%2F%2Fgist.githubusercontent.com%2FVarapornDPU%2F222fff2c6ccac883b5cb9df10f4feb16%2Fraw%2Fecb46863fe93d19b39590a42b388f96431bf8d23%2Fnetwork-89d6a70a-1a5.gexf&r=v&er=1.277"
+                frameBorder="0" title="Retina" allowFullScreen></iframe>
+        </div>
+
+        <div class="column" style="margin: auto;">
+            <br>
+            <p class="indent-3">ในตารางนี้จะมี Node สีพิเศษปรากฎขึ้น นั่นก็คือ "การฟื้นคืนชีพ"
+                เนื่องด้วยละครบุพเพสันนิวาส และ พรหมลิขิต บทประพันธ์ของ รอมแพง ได้เขียนขึ้นตามความหมายของ
+                "กงล้อธรรมจักร" หรือกงล้อแห่งธรรมตามความเชื่อแบบฉบับชาวพุทธและฮินดู
+                ซึ่งหนึ่งในรายละเอียดประกอบด้วยการประดับแฉกของอาทิตย์ หรือ อทิตยา มีดอกพุดตานและดอกการะเกดคอยประดับ
+                เป็นต้น โดยแต่ละ Node มีความสัมพันธ์เชื่อมโยงถึงกันในหลากหลายรูปแบบ ดังนี้</p>
+            <br>
+            <div class="row">
+                <div class="column">
+                    <div id="dialogue">
+                        <table id="relative-color" class="bg-white table-auto border-collapse ">
+                            <tr>
+                                <th>ความหมาย</th>
+                                <th>เฉดสี</th>
+                            </tr>
+                            <tr>
+                                <td>ข้ามภพ</td>
+                                <td><img src="/status color/resurrect.png" width="60"></td>
+                            </tr>
+                            <tr>
+                                <td>ฆ่า/ถูกฆ่า</td>
+                                <td><img id="relative-color-table" src="/relative color/kill_red.png"></td>
+                            </tr>
+                            <tr>
+                                <td>ศัตรู</td>
+                                <td><img id="relative-color-table" src="/relative color/enemy.png"></td>
+                            </tr>
+                            <tr>
+                                <td>พ่อแม่-ลูก</td>
+                                <td><img id="relative-color-table" src="/relative color/mother-son.png"></td>
+                            </tr>
+                            <td>สามีภรรยา/คู่รัก</td>
+                            <td><img id="relative-color-table" src="/relative color/couple_pink.png"></td>
+                            </tr>
+                            <tr>
+                                <td>รักไม่สมหวัง/แอบรักข้างเดียว</td>
+                                <td><img id="relative-color-table" src="/relative color/unrequited_love.png"> </td>
+                            </tr>
+                            <tr>
+                                <td>เพื่อน/มิตรสหาย</td>
+                                <td><img id="relative-color-table" src="/relative color/friend.png"></td>
+                            </tr>
+                            <tr>
+                                <td>เจ้านาย-ลูกน้อง</td>
+                                <td><img id="relative-color-table" src="/relative color/msater-courtier.png"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="dialouge">
+                        <table id="relative-color" class="bg-white table-auto border-collapse ">
+                            <tr>
+                                <th>รูปแบบความสัมพันธ์</th>
+                                <th>เฉดสี</th>
+                            </tr>
+                            <tr>
+                                <td>สมคบคิด/วางแผนร้าย</td>
+                                <td><img id="relative-color-table" src="/relative color/conspiracy.png"></td>
+                            </tr>
+                            <tr>
+                                <td>เพื่อนร่วมงาน</td>
+                                <td><img id="relative-color-table" src="/relative color/colleague.png"> </td>
+                            </tr>
+                            <tr>
+                                <td>รักเกลียดแค้น</td>
+                                <td><img id="relative-color-table" src="/relative color/love_enemy.png"></td>
+                            </tr>
+                            <tr>
+                                <td>กลับชาติ</td>
+                                <td><img id="relative-color-table" src="/relative color/resurrect.png"></td>
+                            </tr>
+                            <tr>
+                                <td>เชื่อมโยงในอดีต</td>
+                                <td><img id="relative-color-table" src="/relative color/pastlife.png"></td>
+                            </tr>
+                            <tr>
+                                <td>เครือญาติ</td>
+                                <td><img id="relative-color-table" src="/relative color/relative.png"> </td>
+                            </tr>
+                            <tr>
+                                <td>รู้จักผ่านเพื่อน</td>
+                                <td><img id="relative-color-table" src="/relative color/mutual.png"> </td>
+                            </tr>
+                            <tr>
+                                <td>ศิษย์-อาจารย์</td>
+                                <td><img id="relative-color-table" src="/relative color/menter.png"> </td>
+                            </tr>
+                            <tr>
+                                <td>พี่น้อง</td>
+                                <td><img id="relative-color-table" src="/relative color/silbling.png" </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <div id="content" class="row">
+        <div class="column">
+            <h3 class="my-2 font-bold">ยุคสมัยที่ตัวละครดำรงอยู่</h3>
+            <iframe
+                src="https://ouestware.gitlab.io/retina/beta/#/embed/?url=https%3A%2F%2Fgist.githubusercontent.com%2FVarapornDPU%2F92cd6511522e506afa75c791bd84c468%2Fraw%2F5e53516e7898a4628dee0e0863bd20874c5824f9%2Fnetwork-a38a8cde-2b9.gexf&nr=1.341"
+                frameBorder="0" title="Retina" allowFullScreen></iframe>
+            <br>
+            <div class="content">
+                <p class="indent-3">
+                    ละครเรื่องพรหมลิขิต เป็นภาคต่อของ บุพเพสันนิวาส โดยแต่ละภาคเป็นเหตุการณ์ที่เกิดขึ้นต่างยุคสมัย
+                    ซึ่งมีตัวละครบางกลุ่มที่อยู่ต่อเนื่องจากแผ่นดินแรกเรื่อยมากระทั่งแผ่นดินที่ 2
+                    โดยมีการใช้สีเพื่อแบ่งกลุ่ม ดังนี้
+                </p>
+            </div>
+            
+            <div id="dialogue">
+                <table id="content_of_reign" class="bg-white table-auto border-collapse ">
+                    <tr>
+                        <th>ยุคสมัย</th>
+                        <th>เฉดสี</th>
+                    </tr>
+                    <tr>
+                        <td>พระนารายณ์มหาราช</td>
+                        <td><img src="/status color/a.png" width="60px"> </td>
+                    </tr>
+                    <tr>
+                        <td>พระเจ้าท้ายสระ(สมเด็จพระสรรเพชญ์ที่ 9)</td>
+                        <td><img src="/status color/B.png" width="60px"> </td>
+                    </tr>
+                    <tr>
+                        <td>ตัวละคร 2 แผ่นดิน</td>
+                        <td><img src="/status color/ab.png" width="60px"> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="column">
+            <h3 class="my-2 font-bold">เพศของตัวละคร</h3>
+            <iframe
+                src="https://ouestware.gitlab.io/retina/beta/#/embed/?url=https%3A%2F%2Fgist.githubusercontent.com%2FVarapornDPU%2F7927b52672ad27b88eb680cd71c4991f%2Fraw%2F8eab9fd618c7a0aaf9747cfeb94afdaa0b9d92c3%2Fnetwork-fe6873e6-3ba.gexf"
+                frameBorder="0" title="Retina" allowFullScreen></iframe>
+            <br>
+            <p class="indent-3">เพศของตัวละครในเรื่องแบ่งออกเป็น 2 เพศ ก็คือ เพศชาย และ เพศหญิง
+                นอกจากนี้ยังมีเส้นความสัมพันธ์แบบธรรมดา และแบบพิเศษ ซึ่งอาจเหมายถึงเป็นคู่รัก หรือการกลับชาติมาเกิด</p>
+            
+            <div id="dialogue">
+                <table id="content_of_reign" class="bg-white table-auto border-collapse ">
+                    <th>ความหมายของสี</th>
+                    <th>เฉดสี</th>
+                    <tr>
+                        <td>เพศชาย จำนวน 37 </td>
+                        <td><img src="/status color/male.png" width="60px"></td>
+                    </tr>
+                    <tr>
+                        <td>เพศหญิง จำนวน 31</td>
+                        <td><img src="/status color/female.png" width="60px"></td>
+                    </tr>
+                    <tr>
+                        <td>ความสัมพันธ์แบบปกติ</td>
+                        <td><img src="/relative color/normal_relation.png" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td>ความสัมพันธ์แบบพิเศษ</td>
+                        <td><img src="/relative color/special_relation.png" width="100px"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2 class="font-bold text-xl bg-white">การวิเคราะห์ความสัมพันธ์</h2>
+    <br>
+
+    <div id="content" class="row">
+        <div class="column">
+            <h3 class="font-bold"> Closeness Centrality</h3>
+            <p class="my-2 indent-3">ค่าความสนิทชิดเชื้อ "Closeness" เป็นอัลกอริทึ่มที่ให้ความสำคัญกับการเชื่อมต่อ Node
+                ในเครือข่ายได้อย่างรววดเร็วที่สุด โดยกราฟได้ใช้สีในการไล่ออ่อนจากเข้ม โดย Node
+                ไหนที่มีสีอ่อนแสดงว่ามีค่าความ Closeness ที่ต่ำไล่ลำดับค่าสีขึ้นไปเรื่อย ๆ ทั้งนี้ค่า Close
+                จะไม่เกี่ยวว่าต้องเป็น Node ที่มี degree สูง หากเป็น Node ที่มี degree ต่ำ แต่สามารถเชื่อมโยงกับ Node
+                ที่สำคัญได้ก็จะได้ค่า Closeness ที่สูงนั่นเอง</p>
+        </div>
+        <div class="column">
+            <h3 class="font-bold">Betweeness Centrality</h3>
+            <p class="my-2 indent-3">"สะพานของความสัมพันธ์ที่สั้นที่สุด" ใช้หลักการคำณวนหา Node
+                ที่มีระยะทางเชื่อมโยงไปยังอีกคนหลาย ๆ คนที่สั้นที่สุด เรียกว่าใครที่มีค่า Betweeness มากที่สุด
+                คือคนกลางที่จะเชื่อมโยงกลุ่มความสัมพันธ์ได้สั้นมากที่สุด
+                โดยกราฟนี้ใช้การแสดงไล่สีจากอ่อนไปเข้ม แสดงว่าใครที่ไม่ได้เชื่อมโยงถึงคนอื่นเท่าไหร่นัก จะมีสีที่จืดจาง
+                ส่วนใครที่มีการเชื่อมต่อที่สำคัญระหนึ่งหากตัดคนนั้นแล้ว อาจไม่มีการเชื่อมต่อกันของกลุ่มความสัมพันนี้
+                จะมีสีเข้มมากที่สุด ในรายงานนี้หมายถึง เกศสุรางค์ นั่นเอง</p>
+        </div>
+    </div>
+    <div id="content" class="row">
+        <div class="column">
+            <iframe
+                src="https://ouestware.gitlab.io/retina/beta/#/embed/?url=https%3A%2F%2Fgist.githubusercontent.com%2FVarapornDPU%2F8d9ab9772b3ca36d07c828a1fb78e845%2Fraw%2Fd33df6a78fedd330eda82ce0326eb12230999940%2Fnetwork-55e4a6cc-4e6.gexf&r=v"
+                frameBorder="0" title="Retina" allowFullScreen></iframe>
+        </div>
+        <div class="column">
+            <iframe
+                src="https://ouestware.gitlab.io/retina/beta/#/embed/?url=https%3A%2F%2Fgist.githubusercontent.com%2FVarapornDPU%2F992b0ab9fadf0bf6eb81b8c88223817b%2Fraw%2F7361f0b73982e67a75fd3e0196d0fffe03545d06%2Fnetwork-7a9870cb-039.gexf"
+                frameBorder="0" title="Retina" allowFullScreen></iframe>
+        </div>
+    </div>
+    <br>
+    <div class="bg-white my-2" style="height: 100;">
+        <h1 class="font-bold text-xl">HITS: Hyperlink-Induced Topic Search</h1>
+        <h2 class="text-xl">Hub and Authority</h2>
+    </div>
+    <br>
+    <div id="content" class="row">
+        <div class="column">
+            <h3 class="font-bold">Authority</h3>
+            <p class="indent-3">แหล่งข้อมูลชั้นเลิศที่ใครก็อยากเข้าหา : Authority
+                เป็นการวัดจำนวนการเชื่อมโยงเข้าหาโหนดนั้นๆ
+                จากโหนดสำคัญในเครือข่าย โดยไม่จำเป้นต้องเป็น Node ที่มีจำนวน Degree มาก และต่างจากค่า Closeness
+                ที่เน้นความรวดเร็วในการเชื่อมโยงกับ Node อื่นในเครือข่าย
+            </p>
+        </div>
+        <div class="column">
+            <h3 class="font-bold">Hub</h3>
+            <p class="indent-3">เจ้าบ้านผู้น่ารัก : Hub วัดความสำคัญของ Node คล้ายกับ Authority แต่เป็นในรูปแบบตรงข้าม
+                นั่นก็คือ
+                ให้ความสำคัญกับ Node ในการเชื่อมโยงออกไปหา Node สำคัญอื่นๆ ซึ่งไม่ผันตรงกับจำนวน degree out
+                และไม่เหมือน Betweeness ที่เน้นเส้นทางที่สั้นที่สุดระหว่างคู่โหนดในเครือข่าย </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <iframe
+                src="https://ouestware.gitlab.io/retina/beta/#/embed/?url=https%3A%2F%2Fgist.githubusercontent.com%2FVarapornDPU%2F632ca19912d68c8af53499d772644b3a%2Fraw%2Fedc13b4b49ff0902e033dbba3bf4f2015380d8b6%2Fnetwork-9580fbe0-ebd.gexf"
+                frameBorder="0" title="Retina" allowFullScreen></iframe>
+        </div>
+        <div class="column">
+            <iframe
+                src="https://ouestware.gitlab.io/retina/beta/#/embed/?url=https%3A%2F%2Fgist.githubusercontent.com%2FVarapornDPU%2F83abeeef98f329988c91e8fe9fe91e9d%2Fraw%2F519345bf623de1833a446664125cc5f2ceb7afb7%2Fnetwork-06bf3816-cd3.gexf&r=v"
+                frameBorder="0" title="Retina" allowFullScreen></iframe>
+        </div>
+    </div>
+    <br>
+    <div id="footer" class="bg-stone-200 pt-3 pb-3">
+        <table class="bg-white rounded-lg">
+            <tr>
+                <th colspan="2">รายงานโดย</th>
+            </tr>
+            <tr>
+                <th>ชื่อ</th>
+                <th>รหัส</th>
+            </tr>
+            <tr>
+                <td>วราภรณ์ ฉลวยศรี </td>
+                <td>65130655</td>
+            </tr>
+            <tr>
+                <td>นัทธมน ปานเทศ</td>
+                <td>65130972 </td>
+            </tr>
+            <tr>
+                <td>ปฏิภาณ สาระนิคย์</td>
+                <td>65130730 </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
