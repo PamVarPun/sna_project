@@ -1,5 +1,5 @@
 # Social Network Analysis  
-![](https://github.com/PamVarPun/sna_project/blob/main/cover.png)
+![](https://github.com/PamVarPun/sna_project/blob/main/image/cover.png)
 
 # จักรวาลเกศสุรางค์ : หากมีเฟื้องจำกัด ต้องจ้างออกเจ้าไหนมารีวิวดี
 เป็นหนึ่งในโปรเจคต์การเรียนวิชา Social Network Analysis ฉบับ Non-IT โดยใช้ข้อมูลที่เก็บและจัดการเอง โดยอ้างอิงจากละครชื่อดังเรื่อง บุพเพสันนิวาส และ พรหมลิขิต หลังจากจัดการข้อมูลต่าง ๆ ผ่าน Google Sheet เรียบร้อยแล้ว 
